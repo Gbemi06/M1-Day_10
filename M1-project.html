@@ -5,66 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M1-Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id = "heading">This is my Module 1 project</div>
+     <!--
+        HTML EXERCISES
+
+        1) Create a title for this webpage
+        2) Create a heading of your choice
+        3) Create an ordered list with some list items into it
+        4) Create a table with 5 columns and 4 rows
+        5) Add an image to each second cell of every row
+        6) Add a anchor link for every image
+        7) Merge together 2 table cells
+        8) Divide the page using a horizontal line
+        9) Create a container with a nested paragraph and a nested unordered list
+        10) Create a footer with some information about the page creator -->
+
+    <h1 class="changeFont">This is my Module 1 project</h1>
     <div>
         <ol>
             <li>1st list item</li>
-            <li>1st list item</li>
-            <li>1st list item</li>
-            <li>1st list item</li>
+            <li>2nd list item</li>
+            <li>3rd list item</li>
+            <li>4th list item</li>
         </ol>
     </div>
     <div>
-        <table border="2">
-            <hr>
+        <hr>
+        <table class="bordered">
+           
             <tr>
-                <td>1 column</td>
-                <td colspan="1" width = "1" height = "1"><img src="pics.jpg" alt="pictures"><a href="https://www.google.com">image link</a></td>
-                <td>1 column</td>
-                <td>1 column</td>
-                <td>1 column</td>
+                <th>First Name</th>
+                <th>Picture</th>
+                <th>Last name</th>
+                <th>Country</th>
+                <th>Age</th>
             </tr>
             <tr>
-                <td>2 column</td>
-                <td><img src="pics.jpg" alt="pictures"><a href="https://www.google.com">image link</a></td>
-                <td>1 column</td>
-                <td>1 column</td>
-                <td>1 column</td>
+                <td>John</td>
+                <td><a href="https://google.com" target="_blank"><img src="beach.jpeg" alt="pictures"></a></td>
+                <td>Bull</td>
+                <td><a href="#">England</a></td>
+                <td>20</td>
             </tr>
             <tr>
-                <td>3 column</td>
-                <td><img src="pics.jpg" alt="pictures"><a href="https://www.google.com">image link</a></td>
-                <td>1 column</td>
-                <td>1 column</td>
-                <td>1 column</td>
+                <td>Samuel</td>
+                <td><a href="https://google.com" target="_blank"><img src="beach.jpeg" alt="pictures"></a></td>
+                <td>Doe</td>
+                <td><a href="#">Uganda</a></td>
+                <td>50</td>
             </tr>
             <tr>
-                <td>1 column</td>
-                <td><img src="pics.jpg" alt="pictures"><a href="https://www.google.com">image link</a></td>
-                <td>1 column</td>
-                <td>1 column</td>
-                <td>1 column</td>
+                <td>Aisha</td>
+                <td><a href="https://google.com" target="_blank"><img src="beach.jpeg" alt="pictures"></a></td>
+                <td>Buhari</td>
+                <td><a href="#">Nigeria</a></td>
+                <td>48</td>
             </tr>
-        </table>
+            <tr>
+                <td>Paul</td>
+                <td><a href="https://google.com" target="_blank"><img src="beach.jpeg" alt="pictures"></a></td>
+                <td colspan="2"><a href="#">Ethiopia</a></td>
+                <td>75</td>
+         </table>
         <hr>
         <br>
-        <div class = outer-container> This is part of exercise 9
-            <div class = inner-container> second div
-                <p>
-                    this is a nested paragraph, I think!
-                </p>
+        <div class = outer-container>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, culpa.
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione esse nesciunt minus iusto omnis, ea sed culpa porro ipsam deleniti!
+        </p>
+    </p>
+                
                 <br>
                 <ul>
                     <li>nested unordered list</li>
                     <li>nested unordered list</li>
                     <li>nested unordered list</li>
                 </ul>
-            </div>
 
         </div>
     </div>
-    <footer id = footer-container>This is the footer</footer>
+    <footer id = footer-container>Page created by Gbemi</footer>
 </body>
 </html>
+
+<!-- CSS EXERCISES
+
+        11) Give a maximum width to the body and center it into the page
+        12) Set every h1 to be centered
+        13) Change the color of each link in the page
+        14) Create a class with a border assigned to it
+        15) Set the previously created table to have rounded corners
+        16) Add a margin between every paragraph
+        17) Create a class which changes font size and text weight when applied
+        18) Create a class to hide a piece of content
+        19) Add a green border to each <td>
+        20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property) *\

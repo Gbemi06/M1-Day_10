@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(172, 75, 30);
+    color: rgb(19, 20, 19);
+    font-family: 'Nunito', sans-serif;
+    max-width: 500px;
+   margin: 0 auto;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #00db71;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a {
+    color: green;
+}
+
+img {
+    max-width: 200px;
+}
+
+.bordered {
+    border: 2px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
