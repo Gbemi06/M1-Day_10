@@ -77,20 +77,53 @@ let createArraysOfArray = function(){
 
 createArraysOfArray()
 
+// 29) Create a function that gets 2 arrays as parameters and returns the longest one
+
+const diffOfArray = function(Array1, Array2) {
+    // return Array1.length > Array2.length ? Array1 : Array2
+
+    if (Array1.length > Array2.length){
+        return Array1
+    }
+    if (Array1.length < Array2.length) {
+        return Array2
+    }
+    else {
+        return "The two Arrays are of the same length"
+    }
+}
+let diff = diffOfArray([1,2,3,4], [1,2,3,4])
+console.log(diff)
+
+
+// 30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values 
+
+const sumOfArrays = function(Array1, Array2) {
+    let sum1 = 0
+    for (numbers of Array1){
+        sum1 += numbers
+    }
+    let sum2 = 0
+    for (numbers of Array2){
+        sum2 += numbers
+    }
+    return sum1 > sum2 ? sum1 : sum2
+}
+
+let sum = sumOfArrays([2,4,6], [45,2])
+console.log(sum)
 
 // 31) Get the element with an id of "container" from the page
 
 //const list = document.querySelectorAll("#container")
 //console.log(list)
 
-const led = document.querySelectorAll("h1")[0]
-console.log(led)
+
 
 
         /*
         
-        29) Create a function that gets 2 arrays as parameters and returns the longest one
-        30) Create a function that gets 2 arrays of numbers as parameters and returns the one with the higher sum of values 
+        
         
          DOM EXERCISES
 
