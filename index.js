@@ -115,9 +115,17 @@ console.log(sum)
 
 // 31) Get the element with an id of "container" from the page
 
-//const list = document.querySelectorAll("#container")
-//console.log(list)
+const list = document.getElementById("container")
 
+// 32) Get every <td> element from the page
+let tableData = document.querySelectorAll("td")
+
+// 33) Use a loop for printing the text inside of every <td> element in the page
+for (i = 0; i < tableData.length; i++) {
+    tableData[i].innerText = "Text"
+}
+
+// 34) Write a function to change the heading of the page
 
 
 
@@ -128,9 +136,9 @@ console.log(sum)
          DOM EXERCISES
 
     
-        32) Get every <td> element from the page
-        33) Use a loop for printing the text inside of every <td> element in the page
-        34) Write a function to change the heading of the page
+        
+       
+        
         35) Write a function to add an extra row to the table
         36) Write a function to add a class of "test" to each row in the table
         37) Write a function to add a red background to every link in the page
