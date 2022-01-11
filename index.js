@@ -174,6 +174,10 @@ window.onload = function(){
     console.log('Page loaded')
 }
 
+// 39) Write a function to add new items to a unordered list
+const addNewList = function(){
+    li = document.querySelector()
+}
         /*
         
         
@@ -188,6 +192,6 @@ window.onload = function(){
         
         
         
-        39) Write a function to add new items to a unordered list
+        
         40) Write a function to empty a list
         */
